@@ -1,0 +1,3 @@
+This folder contains the following files:
+1. SelectingProminentRatios.ipynb. This file augments the train_labels and val_labels csv files with additional columns corresponding to features, as follows. It first chooses the 5 mass-to-charge ratios that are the most prominent in each sample, and for each of them it records peak renormalized abundance, temperature at which this happens, and sum of mean and std dev of the renormalized abundance.
+2. ScatterPlots.ipynb. This file contains scatter plots of the various features based on the files created in SelectingProminentRatios.ipynb.
